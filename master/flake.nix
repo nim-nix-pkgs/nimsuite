@@ -11,7 +11,6 @@
   inputs.src-nimsuite-master.ref   = "refs/heads/master";
   inputs.src-nimsuite-master.owner = "c6h4clch3";
   inputs.src-nimsuite-master.repo  = "NimSuite";
-  inputs.src-nimsuite-master.dir   = "";
   inputs.src-nimsuite-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
